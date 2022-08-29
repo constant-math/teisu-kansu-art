@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+body{
+    margin: 0;
+}
+
+/* header */
+.header{
+    width: 100%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    background-color: rgba(255, 179, 0, 0.553);
+    display: flex;
+    align-items: center;
+}
+
+
+.title{
+    flex-basis: 60%;
+    white-space: nowrap;
+}
+
+
+.sns{
+    flex-basis: 40%;
+    white-space: nowrap;
+    display: flex; 
+    align-items: center;
+}
+
+.sns_title{
+    margin: 0;
+}
+
+
+.sns_url_group{
+    margin: 0;
+    padding-left: 2%;
+}
+
+.sns_url_item{
+    list-style: none;
+    display: inline-block;
+}
+
+/* hedeer タブレット版 */
+@media screen and (max-width: 800px) {
+    .header{
+        padding: 3%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .title{
+        margin-top: 0;
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .sns{
+        flex-basis: 100%;
+        justify-content: center;
+       }
+  
+}
+
+/* hedeer スマホ版 */
+@media screen and (max-width: 480px){
+    .title{
+        margin: 0;
+        transform: scale(0.8,0.8);
+    }
+    .sns{
+        transform: scale(0.8,0.8);
+    }
+}
+
+
+
+
+.work{
+    text-align: center;
+}
+
+.work div{
+    margin: 20px;
+    width: 300px;
+    display: inline-block;
+}
+
+.work div img{
+    width: 100%;
+}
