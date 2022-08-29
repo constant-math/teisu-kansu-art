@@ -1,1 +1,0 @@
-# teisu-kansu-art
