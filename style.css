@@ -76,16 +76,3 @@ body{
 
 
 
-.work{
-    text-align: center;
-}
-
-.work div{
-    margin: 20px;
-    width: 300px;
-    display: inline-block;
-}
-
-.work div img{
-    width: 100%;
-}
