@@ -109,6 +109,17 @@ body{
     width: 100%;
 }
 
+.work_url_group{
+    padding-left: 0; 
+}
+
+.work_url_item{
+    list-style: none;
+    display: inline-block;
+}
+
+
+
 /* 作品 スマホ版 */
 @media screen and (max-width: 480px){
     .works{
