@@ -76,6 +76,10 @@ body{
 
 /* 作品 PC版 */
 
+.category{
+    white-space: nowrap;
+}
+
 .main .title{
     margin-left: 5%;
     font-size: 1.7em;
